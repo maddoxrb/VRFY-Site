@@ -1,0 +1,683 @@
+/* screen - profile-page-desktop */
+
+.profile-page-desktop {
+  align-items: flex-start;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 1200px;
+  position: relative;
+}
+
+.profile-page-desktop .navigation-header {
+  box-shadow: 0px 4px 8px #00000014;
+  gap: 32px;
+  padding: 16px 32px;
+}
+
+.profile-page-desktop .vector {
+  cursor: pointer;
+  height: 32px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 105.6px;
+}
+
+.profile-page-desktop .vector:hover {
+  transform: scale(1.1);
+}
+
+.profile-page-desktop .tab-menu {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.profile-page-desktop .partials-tabs {
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 12px 16px;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.profile-page-desktop .partials-tabs:hover {
+  transform: scale(1.1);
+}
+
+.profile-page-desktop .store-list {
+  color: var(--legend);
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -2.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.profile-page-desktop .partials-tabs-1 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 12px 16px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 90px;
+}
+
+.profile-page-desktop .partials-tabs-1:hover {
+  transform: scale(1.1);
+}
+
+.profile-page-desktop .group-1520 {
+  height: 48px;
+  position: relative;
+  width: 48px;
+}
+
+.profile-page-desktop .section {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  padding: 56px 32px;
+  position: relative;
+  width: 100%;
+}
+
+.profile-page-desktop .title {
+  letter-spacing: 0.25px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.profile-page-desktop .frame-1521 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.profile-page-desktop .section-1 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--haze);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px #00000014;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px;
+  position: relative;
+  width: 363px;
+}
+
+.profile-page-desktop .image {
+  border: 1px solid;
+  border-color: var(--primary);
+  border-radius: 200px;
+  height: 128px;
+  position: relative;
+  width: 128px;
+}
+
+.profile-page-desktop .overlap-group {
+  height: 120px;
+  left: 8px;
+  position: relative;
+  width: 120px;
+}
+
+.profile-page-desktop .group-1520-1 {
+  cursor: pointer;
+  height: 112px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  transition: all 0.2s ease;
+  width: 112px;
+}
+
+.profile-page-desktop .group-1520-1:hover {
+  transform: scale(1.1);
+}
+
+.profile-page-desktop .icons-2 {
+  height: 34px;
+  left: 86px;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.profile-page-desktop .title-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.profile-page-desktop .name {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.profile-page-desktop .member-since-03-aug-2023 {
+  align-self: stretch;
+  color: var(--legend);
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+}
+
+.profile-page-desktop .section-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--haze);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px #00000014;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 24px;
+  padding: 24px;
+  position: relative;
+}
+
+.profile-page-desktop .username-pat-fran123 {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.profile-page-desktop .span1-1 {
+  font-weight: 600;
+}
+
+.profile-page-desktop .section-item {
+  align-self: stretch;
+  line-height: 16px;
+  position: relative;
+}
+
+.profile-page-desktop .span0 {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.profile-page-desktop .span1 {
+  letter-spacing: 0.31px;
+}
+
+.profile-page-desktop .span2 {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.profile-page-desktop .row {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.profile-page-desktop .buttons {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--primary);
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 16px 16px 16px 12px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 100px;
+}
+
+.profile-page-desktop .buttons:hover {
+  transform: scale(1.1);
+}
+
+.profile-page-desktop .icons {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.profile-page-desktop .store-list-1 {
+  color: var(--primary);
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.profile-page-desktop .navigation-footer {
+  background-color: var(--black);
+  gap: 24px;
+  justify-content: center;
+  padding: 24px 32px;
+}
+
+.profile-page-desktop .row-1 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 24px;
+  position: relative;
+}
+
+.profile-page-desktop .row-item {
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.profile-page-desktop .row-item:hover {
+  transform: scale(1.1);
+}
+
+.profile-page-desktop .row-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 16px;
+  justify-content: center;
+  position: relative;
+}
+
+.profile-page-desktop .icons-1 {
+  cursor: pointer;
+  flex: 0 0 auto;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.profile-page-desktop .icons-1:hover {
+  transform: scale(1.1);
+}
+
+.profile-page-desktop .vrfy-2023-all-rights-reserved {
+  color: var(--white);
+  flex: 1;
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+  text-align: right;
+}
+
+.profile-page-desktop .navigation {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+/* screen - profile-page-mobile-all-breakpoints */
+
+.profile-page-mobile-all-breakpoints {
+  align-items: flex-start;
+  background-color: var(--background);
+  min-width: 320px;
+}
+
+.profile-page-mobile-all-breakpoints .navigation-header-1 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 32px;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.profile-page-mobile-all-breakpoints .vector-1 {
+  display: flex;
+  height: 24px;
+  position: relative;
+  width: 79.2px;
+}
+
+.profile-page-mobile-all-breakpoints .vector-2 {
+  cursor: pointer;
+  flex: 1;
+  margin-left: 0.0%;
+  margin-right: 0.0%;
+  transition: all 0.2s ease;
+  width: 79.2px;
+}
+
+.profile-page-mobile-all-breakpoints .vector-2:hover {
+  transform: scale(1.1);
+}
+
+.profile-page-mobile-all-breakpoints .row-3 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.profile-page-mobile-all-breakpoints .icons-3 {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.profile-page-mobile-all-breakpoints .column {
+  align-items: flex-end;
+  align-self: stretch;
+  flex: 0 0 auto;
+  gap: 24px;
+  padding: 40px 16px;
+  width: 100%;
+}
+
+.profile-page-mobile-all-breakpoints .title-2 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+}
+
+.profile-page-mobile-all-breakpoints .inner {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--haze);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px #00000014;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 24px 16px;
+  width: 100%;
+}
+
+.profile-page-mobile-all-breakpoints .image-1 {
+  border: 1px solid;
+  border-color: var(--primary);
+  border-radius: 200px;
+  height: 128px;
+  position: relative;
+  width: 128px;
+}
+
+.profile-page-mobile-all-breakpoints .overlap-group-1 {
+  height: 120px;
+  left: 8px;
+  position: relative;
+  width: 120px;
+}
+
+.profile-page-mobile-all-breakpoints .group-1520-2 {
+  cursor: pointer;
+  height: 112px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  transition: all 0.2s ease;
+  width: 112px;
+}
+
+.profile-page-mobile-all-breakpoints .group-1520-2:hover {
+  transform: scale(1.1);
+}
+
+.profile-page-mobile-all-breakpoints .icons-5 {
+  height: 34px;
+  left: 86px;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.profile-page-mobile-all-breakpoints .title-3 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.profile-page-mobile-all-breakpoints .name-1 {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.profile-page-mobile-all-breakpoints .member-since-03-aug-2023-1 {
+  align-self: stretch;
+  color: var(--legend);
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+  text-align: center;
+}
+
+.profile-page-mobile-all-breakpoints .inner-1 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--haze);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px #00000014;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 16px;
+  width: 100%;
+}
+
+.profile-page-mobile-all-breakpoints .username-pat-fran123-1 {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.profile-page-mobile-all-breakpoints .span1-3 {
+  font-weight: 600;
+}
+
+.profile-page-mobile-all-breakpoints .inner-item {
+  line-height: 16px;
+}
+
+.profile-page-mobile-all-breakpoints .span0-2 {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.profile-page-mobile-all-breakpoints .span1-2 {
+  letter-spacing: 0.31px;
+}
+
+.profile-page-mobile-all-breakpoints .span2-1 {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.profile-page-mobile-all-breakpoints .buttons-1 {
+  align-items: center;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: var(--primary);
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 16px 16px 16px 12px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.profile-page-mobile-all-breakpoints .buttons-1:hover {
+  transform: scale(1.1);
+}
+
+.profile-page-mobile-all-breakpoints .store-list-2 {
+  color: var(--primary);
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.profile-page-mobile-all-breakpoints .navigation-footer-1 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--black);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  padding: 24px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.profile-page-mobile-all-breakpoints .column-1 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.profile-page-mobile-all-breakpoints .icons-4 {
+  cursor: pointer;
+  flex: 0 0 auto;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.profile-page-mobile-all-breakpoints .icons-4:hover {
+  transform: scale(1.1);
+}
+
+.profile-page-mobile-all-breakpoints .row-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+}
+
+.profile-page-mobile-all-breakpoints .row-item-1 {
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.profile-page-mobile-all-breakpoints .row-item-1:hover {
+  transform: scale(1.1);
+}
+
+.profile-page-mobile-all-breakpoints .vrfy-2023-all-rights-reserved-1 {
+  color: var(--white);
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.profile-page-mobile-all {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.profile-page-mobile-all-breakpoints .inner-2 {
+  align-self: stretch;
+  position: relative;
+}
+
+.profile-page-mobile-all-breakpoints .row {
+  gap: 24px;
+  position: relative;
+}
+
+.profile-page-mobile-all-breakpoints .title {
+  align-self: stretch;
+  position: relative;
+}
+@media screen and (max-width: 1199px) {
+  .screen.profile-page-desktop { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1200px) {
+  .screen.profile-page-mobile-all-breakpoints { 
+    display: none;
+   }
+}
